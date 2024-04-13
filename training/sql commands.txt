@@ -1,0 +1,49 @@
+create database peters;// for creating database
+show databases;// for showing all the databases
+use peters;//for using the database
+
+
+
+create table Student(stud_id int,stud_name varchar(20),marks int);
+//for creating the table inside the database
+
+insert into Student(stud_id,stud_name) values(1,"raju");
+//for insertion of values into only some of the columns
+
+insert into Student values(1,"Adi",88);
+//for insertion of values to all the columns
+
+insert into Student values(3,"JAYA",56),(5,"KAILASH",99);
+//insertion of multiple values in same query
+
+
+select marks from Student;//if i wanted to get only marks column
+
+select*from Student;//fetching all the rows from the table
+
+
+
+
+select min(marks) from Student;
+select avg(marks) from Student;
+select max(marks) from Student;
+select count(stud_id) from Student;
+select sum(marks) from Student;
+select marks from Student where stud_id=101
+
+
+Update Student set marks=90 where stud_id=1;
+
+alter table Student add column skill varchar();
+
+delete from Student where stud_id=1;
+
+
+
+
+
+
+
+
+
+

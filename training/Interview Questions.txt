@@ -1,0 +1,194 @@
+Interview questions for mock interview
+
+Datatypes 
+==========
+
+What is a datatype and how many categories of datatypes are there in java ?
+What is type conversions and how many categories are there in java ?
+
+Variables 
+========
+
+What is a variable and how many types of variables that are there in java ?
+Questions on Instance, static and local variables ?
+
+operators 
+=========
+
+How many categories of operators are there in java ?
+What is the difference between && and || ?
+What is the difference between pre-increment and post-increment in java ?
+
+Control Structures 
+==============
+
+How many types of conditional statements are there in java ?
+What is loop and how it is used ? How many types are there ?
+What is the difference between for and while ? when to use which ?
+What is the difference between while and do while ? when to use which ?
+
+What is access specifiers ? Explain each of them along more restrictive to less restrictive order ?
+
+What is static keyword in java ?
+
+What is this keyword ? Write a program to tell how it is used ?
+
+constructors 
+===========
+
+What are constructors and why it is called as special method amd what are the rules for creating a constructor in java ?
+What is the use of constructor ?
+How many types of constructors that are there in java ? When to use which ?
+If parameterized constructor is there compiler provides default constructor ?
+What is this() and this(args) ? When to use which ?
+
+OOPs
+========
+
+What is OOPs and What are the advantages of it over procedural oriented programming ?
+What is a object oriented programming language ?
+What is object and class in java ?
+
+Inheritance
+===========
+
+What is inheritance and why it is used ?
+How many types of inheritance were there. Explain each of them ?
+Which type of inheritance is not supported in java ? Why it is not supported ?
+Can i refer both super class and sub class object with super class reference and can I access super class and sub class members ?
+Can i refer both super class and sub class object with sub class reference and can I access super class and sub class members ?
+
+Polymorphism :
+===========
+
+What is polymorphism and how many types are there ?
+What is the example of compile time polymorphism ?
+What is method overloading ? Can methods be overlaoded in the same class ?
+Explain a program based on method overlaoding ?
+What is the example of runtime polymorphism ?
+What is method overriding ? Can methods be overridden in the same class ?
+Explain a program based on method overridding?
+What are the differences between method overloading and overridding ?
+Can static and private methods can be overridden ?
+While overriding acccess modifier must be same or different ?
+What is covariant return type ?
+
+Abstraction 
+============
+
+What is abstraction ?
+How to provide abstraction in java ? how many ways are there ?
+What is a abstract class ?
+How to create object for an abstract class ?
+What is a abstract method ? 
+What is a concrete method ?
+How to access abstract and concrete methods from a abstract class ? What needs to taken care while inheriting ?
+What is an interface ? What is the differenvce between inteface and abstract class ?
+What is the use of an interface ? 
+How to create object for an interface ?
+What needs to taken care while inheriting an interface ?
+In a interface can i inherit the class ?
+
+Encapsulation 
+==============
+
+What is encapsulation ? 
+How to create a encapsulated class in java ?
+What are getters and setters in a encapsulated class ? What is the use of them ?
+What is the use of encapsulation in java ?
+
+
+Strings
+=========
+
+What is String ?
+How to create immutable Strings ?
+Why strings are immutuable in java ?
+How to create immutable Strings in java ?
+What is the difference between Stringbuffer and StringBuilder in java ?
+What is the deafult capacity of StringBuffer in java ?
+
+Exception handling
+================
+
+What is Exception and Exception Handling in java ?
+How many types of exceptions that are there in java ?
+What is super class for all the excdeptions in java ?
+How to handle exceptions in java ?
+What is the difference between try and catch ?
+What is the difference between final, finally, finalize method in java ?
+What is difference between between throw and throws in java ?
+What is the use of finally block ?
+
+Multithreading
+==============
+
+What is Multithreading in java ?
+What is a thread in java ?
+Explain Thread Life cycle ?
+What is the difference between process and thread and which is efficient ?
+How many ways are there to create a multithreading application in java ?
+What is the difference between Thread class and Runnable interface ?
+What is synchronization and how to perform synchronization in java ?
+ 
+Streams
+==========
+
+What is Stream ?
+How many Streams that were there in java ?
+What is the difference between input and outputstream ?
+Write a program read from a file ?
+Write a program to write into file ?
+
+Collections
+=========
+What are collections in java ? How they are used ?
+What is top interface for all the colletions in java ?
+How many interfaces are in the collection heirarchy ? what are those ?
+What is the difference between Array and ArrayList ?
+What is the difference between ArrayList and LinkedList ?
+What is the difference between and add() and offer() ?
+What is the difference between ArrayDeque and PriorityQueue ?
+What is the difference between PriorityQueue  and TreeSet ?
+What is the difference between HashSet and LinkedHashSet ?
+What are legacy classes in java ? What are there ?
+What is the differnce between vector and ArrayList ?
+What is Map ?
+What are the implementation classes of Map ?
+What is called as Entry and is it a Interface in Java ?
+What is the difference between HashMap and LinkedHashMap ?
+How many ways are there to iterate over the elements inside a collection ?
+
+
+What are generics in java ?
+What is autoboxing and autounboxing in java ?
+How many types of classes that are there in java ?
+How many types of interfaces that are there in java ?
+What is serializable interface ? Develop a program to implement it ?
+What is cloneable interface ? Develop a program to implement it ? 
+What are default and static methods ? What is the use and difference between them ?
+
+
+Lamda Expression
+==================
+
+What is Lamda expression and how it is useful ?
+How to create lamda expression in java ?
+What is a functional interface ?
+Develop a program using lamda expression ?
+
+Jdbc
+=======
+
+What is Jdbc ? How it is used ?
+What is a driver ? and how many types of drivers are there in java ?
+What were the steps that were there to develop a jdbc application ?
+What are the differences Statement and PreparedStatement ? Which is efficient in terms of performance ?
+What is sql injection ? How to prevent it ?
+What are Blob and Clob datatypes ? how they are used ?
+What is connection pooling management in java ? How that is used and how to implement it ?
+What is callableStatment in java ? How that is used ?
+What is Transaction and Transaction management in java ?
+What are acid properties in a Transaction ?
+How to develop a Transaction management application in java ?
+How to create batched queries program in jdbc ?

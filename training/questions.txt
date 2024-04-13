@@ -1,0 +1,13 @@
+1) write a program to write string data append into a file..
+2)what is a use of default and static body methods in an interface?
+3) what is the differnce b/w abstract method and interface?
+4)learn more about serialization and deserialization .observe the programs
+
+
+
+ practice-1
+practice cloning an object using cloneable interface
+serialzeable in terface
+
+
+1) What is call by reference and call by value ?Is call by value is supported in java?explain with an example?
